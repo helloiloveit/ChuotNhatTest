@@ -9,6 +9,7 @@ os.system('python web2py.py -S chuotnhat -M -R applications/chuotnhat/unittest/t
 os.system('python web2py.py -S chuotnhat -M -R applications/chuotnhat/unittest/test_answer_handler.py')
 os.system('python web2py.py -S chuotnhat -M -R applications/chuotnhat/unittest/test_tag_handler.py')
 os.system('python web2py.py -S chuotnhat -M -R applications/chuotnhat/unittest/test_user_following_feature_handler.py')
+os.system('python web2py.py -S chuotnhat -M -R applications/chuotnhat/unittest/test_default.py')
 
 def main():
 	p = optparse.OptionParser()
