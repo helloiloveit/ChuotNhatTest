@@ -4,6 +4,8 @@ import os
 
 os.chdir('/Users/mac/Documents/shareknowledge/applications/chuotnhat/databases')
 os.system('rm -f *')
+os.chdir('/Users/mac/Documents/shareknowledge/applications/chuotnhat/sessions')
+os.system('rm -f *')
 os.chdir('/Users/mac/Documents/shareknowledge')
 os.system("python web2py.py -a '' --port 8002")
 
